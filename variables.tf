@@ -37,5 +37,11 @@ variable aks_name {
 variable nodepool_vm_sku {
   type        = string
   default     = "Standard_B2s"
-  description = "description"
+  description = "SKU for the nodepool VMs"
+}
+
+variable node_count {
+  type        = number
+  default     = 1
+  description = "Node count for the nodepool"
 }
