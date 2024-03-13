@@ -1,6 +1,6 @@
 # Terraform AKS 
 
-This repo contains resources for deploying a Kubernetes cluster on Azure using Terraform. Additionally we create a network, a subnet and a public IP for the cluster.
+This repo contains resources for deploying a Kubernetes cluster on Azure using Terraform. 
 
 ## Prerequisites 
 * Terraform CLI installed

@@ -10,24 +10,6 @@ variable location {
   description = "azure location for installation"
 }
 
-variable vnet_name {
-  type        = string
-  default     = "k8s-vnet"
-  description = "name of the virtual network that will be created for the installation"
-}
-
-variable subnet_name {
-  type        = string
-  default     = "k8s-subnet"
-  description = "name of subnet inside the virtual network, k8s will be located in"
-}
-
-variable public_ip_name {
-  type        = string
-  default     = "traefik-pub-ip"
-  description = "name of the public ip for traefik ingress"
-}
-
 variable aks_name {
   type        = string
   default     = "k8s"
